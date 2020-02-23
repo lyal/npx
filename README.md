@@ -44,6 +44,8 @@ If a full specifier is included, or if `--package` is used, npx will always use 
 
 * `-q, --quiet` - Suppressed any output from npx itself (progress bars, error messages, install reports). Subcommand output itself will not be silenced.
 
+* `-st, --stack-trace` - Show the full error message from child processes, including the stack trace.  
+
 * `-n, --node-arg` - Extra node argument to supply to node when binary is a node script. You can supply this option multiple times to add more arguments.
 
 * `-v, --version` - Show the current npx version.
